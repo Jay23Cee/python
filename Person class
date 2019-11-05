@@ -6,8 +6,13 @@ class person:
 	 	self.zipcode=zipcode
 	 	self.email=email
 	 	self.phone= phone
+	 	
+	 def toString(self):
+	 	mystring = self.name + ' '+ str(self.age)
+	 	return mystring
+	 	
     
     
 p1= person("jack", 29, "123 fake st",90016, "justan@example", "(323)123-4321")
 
-print(p1.pho
+print(p1.toString())
