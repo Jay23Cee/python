@@ -16,3 +16,5 @@ class person:
 p1= person("jack", 29, "123 fake st",90016, "justan@example", "(323)123-4321")
 
 print(p1.toString())
+
+print(p1)
