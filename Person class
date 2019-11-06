@@ -10,6 +10,30 @@ class person:
 	 def toString(self):
 	 	mystring = self.name + ' '+ str(self.age)
 	 	return mystring
+	 
+	 def set_name(self, name):
+	 	self.name = name
+	 
+	 def set_age(self, age):
+	 	self.age = age
+	
+	 def set_address(self, address):
+	 	self.address = address
+
+	 def set_zipcode(self, zipcode):
+	 	self.zipcode = zipcode
+	 
+	 def set_email(self, email):
+	 	self.email = email
+
+	 def set_phone(self, phone):
+	 	self.phone = phone
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
 	 	
     
     
