@@ -1,0 +1,28 @@
+
+
+def find_max(mylist):
+  max_value = None
+  for value in mylist:
+    if not max_value:
+      max_value = value
+    elif value > max_value:
+      max_value = value
+  return max_value
+
+
+
+def find_min(mylist):
+  min_value = None
+  for value in mylist:
+    if not min_value:
+      min_value = value
+    elif value < min_value:
+      min_value = value
+  return min_value
+
+
+mylist = [1,23,33,44,33,66,36,85,24]
+somelist =  [-12,12,2,53,23,6,17]  
+
+print(find_min(somelist))
+print(find_max(mylist))
