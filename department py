@@ -1,0 +1,25 @@
+class Department:
+	def __init__(self, Dname, Dhead, Section):
+		self.Dname = Dname 
+		self.Dhead = Dhead
+		self.Section = Section
+
+	
+	def set_Dname(self, Dname):
+		self.Dname = Dname 
+		
+	
+	def set_Dhead(self, Dhead):
+		self.Dhead = Dhead
+		
+	
+	def set_Section(self, Section):
+		self.Section= Section 
+		
+		
+	def toString(self):
+	 	mystring = self.Dname + '  '+ str(self.Dhead)
+	 	return mystring
+		
+D1 = Department("Math" , "Dr Chiang", 1000)
+print(D1.toString())
