@@ -31,4 +31,4 @@ for letter in array2:
             print(let, end = " ")
     else:
         print("", end= " ")
-        print(let, end = " ")
+       
