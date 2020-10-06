@@ -12,20 +12,23 @@ coloredtext = colored('hello', 'red');
 print(coloredtext)
 print (colored('hello', 'red'), colored('world', 'green'))
 
-
 isblue = True
 Color_array = []
+text2 = " This is a longer list"
+array2 =  list(text2)
+for letter in array2:
+    if letter is not ' ':
+        if isblue:
+            let  = colored(letter, 'blue')
+            print(let, end = " ")
+            Color_array.append(let)
+            isblue = False
+        else:
+            isblue= True
 
-for letter in array1:
-    
-    if isblue:
-        let  = colored(letter, 'blue')
-        print(let, end = " ")
-        Color_array.append(let)
-        isblue = False
+            let= colored(letter, 'red');
+            Color_array.append(let)
+            print(let, end = " ")
     else:
-        isblue= True
-       
-        let= colored(letter, 'red');
-        Color_array.append(let)
+        print("", end= " ")
         print(let, end = " ")
